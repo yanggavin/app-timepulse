@@ -3,66 +3,66 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TimePulse — Support</title>
-  <style>
-    :root { --fg:#1d1d1f; --muted:#6e6e73; --link:#0066cc; --bg:#fbfbfd; --card:#fff; --border:#d2d2d7; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); line-height:1.5; font-size:17px; }
-    header { padding:1.25rem 1.5rem; border-bottom:1px solid var(--border); background:var(--card); }
-    .wrap { max-width:720px; margin:0 auto; padding:2rem 1.5rem 4rem; }
-    h1 { font-size:1.75rem; font-weight:700; margin:0 0 0.5rem; letter-spacing:-0.02em; }
-    .sub { color:var(--muted); margin:0 0 2rem; font-size:1rem; }
-    nav { display:flex; flex-wrap:wrap; gap:0.75rem 1.25rem; align-items:center; font-size:0.95rem; }
-    nav a { color:var(--link); text-decoration:none; }
-    nav a:hover { text-decoration:underline; }
-    .langs { margin-left:auto; display:flex; gap:0.75rem; flex-wrap:wrap; }
-    .langs span { color:var(--muted); }
-    h2 { font-size:1.15rem; font-weight:600; margin:2rem 0 0.75rem; }
-    p, li { color:var(--fg); }
-    ul { padding-left:1.25rem; }
-    li { margin:0.35rem 0; }
-    .note { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem 1.25rem; margin:1.5rem 0; font-size:0.95rem; }
-    footer { margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--border); font-size:0.9rem; color:var(--muted); }
-    a { color:var(--link); }
-  </style>
+  <title>TimePulse Support</title>
+  <meta name="description" content="Support for TimePulse, including subscriptions, iCloud sync, data controls, and contact information." />
+  <link rel="canonical" href="https://timepulse-app.newtree.tech/en/index.html" />
+  <link rel="alternate" hreflang="en" href="https://timepulse-app.newtree.tech/en/index.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://timepulse-app.newtree.tech/zh-Hans/index.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://timepulse-app.newtree.tech/zh-Hant/index.html" />
+  <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="../index.html">Languages</a>
-      <a href="index.html">Support</a>
-      <a href="terms.html">Terms of Use</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <div class="langs"><span>Language:</span> <strong>English</strong> <a href="../zh-Hans/index.html">简体中文</a> <a href="../zh-Hant/index.html">繁體中文</a></div>
-    </nav>
-  </header>
-  <main class="wrap">
-    <h1>TimePulse support</h1>
-    <p class="sub">Help for the TimePulse habit tracker, flip clock, mood log, and optional iCloud sync.</p>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand-text">
+        <span class="eyebrow">Support</span>
+        <strong class="brand-title">TimePulse</strong>
+        <span class="brand-subtitle">Help for habits, mood logging, Pro, and iCloud sync</span>
+      </div>
+      <div class="nav">
+        <a href="../index.html">Languages</a>
+        <a href="index.html" class="pill active">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </header>
 
-    <h2>Contact</h2>
-    <p>For questions or feedback, email <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a>.</p>
+    <section class="hero">
+      <span class="eyebrow">English</span>
+      <h1>Support for TimePulse on the App Store.</h1>
+      <p>Use this page as the support URL for App Store Connect, customer questions, and subscription-related help.</p>
+      <div class="meta">
+        <span><strong>Support email:</strong> <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a></span>
+        <span><strong>Website:</strong> <a href="https://timepulse-app.newtree.tech/">https://timepulse-app.newtree.tech/</a></span>
+      </div>
+    </section>
 
-    <h2>Common topics</h2>
-    <ul>
-      <li><strong>iCloud sync (TimePulse Pro)</strong> — Turn on iCloud for your device in Settings, then enable sync inside TimePulse. Data syncs through your Apple ID and CloudKit; we do not host your habit or mood content on our servers.</li>
-      <li><strong>Subscriptions</strong> — Purchases are processed by Apple. Manage or cancel in the App Store app under your Apple ID → Subscriptions, or on your device in Settings → [your name] → Subscriptions.</li>
-      <li><strong>Restore purchases</strong> — Open TimePulse → Settings and use the subscription / restore options shown there (Customer Center or system restore, depending on your build).</li>
-      <li><strong>Data on this device</strong> — You can clear local data from TimePulse settings. If iCloud sync is on, clearing may affect other devices signed into the same iCloud account—read the in-app confirmation carefully.</li>
-    </ul>
+    <section class="card">
+      <h2>Common topics</h2>
+      <ul class="list">
+        <li><strong>Subscriptions and purchases:</strong> TimePulse Pro purchases are processed by Apple. Manage or cancel them in your Apple ID subscriptions settings.</li>
+        <li><strong>Restore purchases:</strong> Open the paywall and tap <em>Restore Purchases</em>, or use the restore flow in Settings.</li>
+        <li><strong>iCloud sync:</strong> Pro users can enable iCloud sync in Settings. Sync uses CloudKit with the same Apple ID signed into the device.</li>
+        <li><strong>Clear data:</strong> Local data can be removed inside TimePulse settings. If iCloud sync is enabled, read the confirmation message carefully before clearing synced data.</li>
+        <li><strong>No account required:</strong> The app works without creating a TimePulse account.</li>
+      </ul>
+    </section>
 
-    <div class="note">
-      Host these pages on HTTPS and use the same URLs in App Store Connect for support and legal links.
-    </div>
+    <section class="card section">
+      <h2>Direct legal links</h2>
+      <div class="nav">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="../zh-Hans/index.html">简体中文</a>
+        <a href="../zh-Hant/index.html">繁體中文</a>
+      </div>
+      <p>For App Store Connect, use this page as the support URL and the dedicated privacy page as the privacy-policy URL.</p>
+    </section>
 
-    <h2>Related</h2>
-    <ul>
-      <li><a href="terms.html">Terms of Use</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-
-    <footer>
-      © New Tree. TimePulse is a product of independent development (update as needed).
+    <footer class="footer">
+      <strong>Last updated:</strong> April 7, 2026
+      <br />
+      Contact: <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a>
     </footer>
   </main>
 </body>

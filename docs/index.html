@@ -3,68 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TimePulse — 时脉 — 時脈</title>
-  <style>
-    :root { --fg:#1d1d1f; --muted:#6e6e73; --link:#0066cc; --bg:#fbfbfd; --card:#fff; --border:#d2d2d7; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "PingFang TC", Roboto, Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); line-height:1.5; font-size:17px; min-height:100vh; display:flex; flex-direction:column; }
-    header { padding:1.25rem 1.5rem; border-bottom:1px solid var(--border); background:var(--card); }
-    .wrap { flex:1; max-width:640px; margin:0 auto; padding:2.5rem 1.5rem 3rem; width:100%; }
-    h1 { font-size:1.85rem; font-weight:700; margin:0 0 0.35rem; letter-spacing:-0.02em; }
-    .tag { color:var(--muted); font-size:1rem; margin:0 0 2rem; }
-    h2 { font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 1rem; }
-    .choices { display:flex; flex-direction:column; gap:0.75rem; }
-    .choices a { display:block; padding:1rem 1.25rem; background:var(--card); border:1px solid var(--border); border-radius:12px; color:var(--fg); text-decoration:none; font-weight:600; transition: border-color .15s, box-shadow .15s; }
-    .choices a:hover { border-color:var(--link); box-shadow:0 2px 12px rgba(0,0,0,.06); }
-    .choices a span { display:block; font-weight:400; font-size:0.9rem; color:var(--muted); margin-top:0.25rem; }
-    .legal { margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border); }
-    .legal h2 { margin-bottom:0.75rem; }
-    .legal-grid { display:grid; gap:1rem; }
-    @media (min-width:480px) { .legal-grid { grid-template-columns:1fr 1fr 1fr; } }
-    .legal-col { font-size:0.9rem; }
-    .legal-col strong { display:block; margin-bottom:0.5rem; color:var(--fg); }
-    .legal-col a { color:var(--link); text-decoration:none; display:block; margin:0.25rem 0; }
-    .legal-col a:hover { text-decoration:underline; }
-    footer { padding:1.25rem 1.5rem; border-top:1px solid var(--border); background:var(--card); font-size:0.85rem; color:var(--muted); text-align:center; }
-    footer a { color:var(--link); }
-  </style>
+  <title>TimePulse Support</title>
+  <meta name="description" content="TimePulse support, privacy policy, and terms of use in English, Simplified Chinese, and Traditional Chinese." />
+  <link rel="canonical" href="https://timepulse-app.newtree.tech/" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header></header>
-  <main class="wrap">
-    <h1>TimePulse</h1>
-    <p class="tag">时脉 · 時脈 — Support, terms, and privacy</p>
-
-    <h2>Choose language / 选择语言 / 選擇語言</h2>
-    <div class="choices">
-      <a href="en/index.html">English <span>Support, terms &amp; privacy</span></a>
-      <a href="zh-Hans/index.html">简体中文 <span>技术支持、使用条款、隐私政策</span></a>
-      <a href="zh-Hant/index.html">繁體中文 <span>技術支援、使用條款、隱私權政策</span></a>
-    </div>
-
-    <div class="legal">
-      <h2>Legal (direct links)</h2>
-      <div class="legal-grid">
-        <div class="legal-col">
-          <strong>English</strong>
-          <a href="en/terms.html">Terms of Use</a>
-          <a href="en/privacy.html">Privacy Policy</a>
-        </div>
-        <div class="legal-col">
-          <strong>简体中文</strong>
-          <a href="zh-Hans/terms.html">使用条款</a>
-          <a href="zh-Hans/privacy.html">隐私政策</a>
-        </div>
-        <div class="legal-col">
-          <strong>繁體中文</strong>
-          <a href="zh-Hant/terms.html">使用條款</a>
-          <a href="zh-Hant/privacy.html">隱私權政策</a>
-        </div>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand-text">
+        <span class="eyebrow">TimePulse</span>
+        <strong class="brand-title">TimePulse · 时脉 · 時脈</strong>
+        <span class="brand-subtitle">Support, privacy, and terms</span>
       </div>
-    </div>
+      <div class="meta">
+        <span><strong>Domain:</strong> <a href="https://timepulse-app.newtree.tech/">timepulse-app.newtree.tech</a></span>
+        <span><strong>Email:</strong> <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a></span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <span class="eyebrow">App Store Ready</span>
+      <h1>Choose your language and open the right support and legal pages.</h1>
+      <p>These pages are intended for App Store Connect support URLs, privacy-policy URLs, customer help, and direct legal reference.</p>
+    </section>
+
+    <section class="grid grid-3">
+      <article class="card">
+        <span class="eyebrow">English</span>
+        <h2>TimePulse</h2>
+        <p>Support, privacy policy, and terms of use for the English storefront and review flow.</p>
+        <div class="section">
+          <div class="nav">
+            <a href="en/index.html">Support</a>
+            <a href="en/privacy.html">Privacy</a>
+            <a href="en/terms.html">Terms</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">简体中文</span>
+        <h2>时脉</h2>
+        <p>面向简体中文 App Store 页面与用户支持的技术支持、隐私政策和使用条款。</p>
+        <div class="section">
+          <div class="nav">
+            <a href="zh-Hans/index.html">技术支持</a>
+            <a href="zh-Hans/privacy.html">隐私政策</a>
+            <a href="zh-Hans/terms.html">使用条款</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">繁體中文</span>
+        <h2>時脈</h2>
+        <p>面向繁體中文 App Store 頁面與使用者支援的技術支援、隱私權政策和使用條款。</p>
+        <div class="section">
+          <div class="nav">
+            <a href="zh-Hant/index.html">技術支援</a>
+            <a href="zh-Hant/privacy.html">隱私權政策</a>
+            <a href="zh-Hant/terms.html">使用條款</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section notice">
+      Recommended App Store Connect URLs:
+      <br />
+      Support URL: <a href="https://timepulse-app.newtree.tech/en/index.html">/en/index.html</a>
+      <br />
+      Privacy Policy URL: <a href="https://timepulse-app.newtree.tech/en/privacy.html">/en/privacy.html</a>
+    </section>
+
+    <footer class="footer">
+      <strong>TimePulse</strong> is a habit, mood, and rhythm tracking app for iPhone.
+      <br />
+      Contact: <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a>
+      <br />
+      Site: <a href="https://timepulse-app.newtree.tech/">https://timepulse-app.newtree.tech/</a>
+    </footer>
   </main>
-  <footer>
-    <a href="mailto:support@timepulse-app.newtree.tech">support@timepulse-app.newtree.tech</a>
-  </footer>
 </body>
 </html>
